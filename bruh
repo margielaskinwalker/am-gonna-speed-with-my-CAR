@@ -1,0 +1,48 @@
+#include<iostream>
+using namespace std;
+
+int input;
+int speed;
+bool bday;
+
+
+int main() {
+
+cout << "how many oloopps???????0" << endl;
+
+cin >> input;
+
+for (int i = 0; i < input; i++); {
+
+
+cout << "is todayt your speed////?>>?>??" << endl;
+
+cin >> speed;
+
+cout << "is today your birthday" << "\n";
+
+cin >> bday;
+
+if (bday == true) {
+if (speed <= 65)
+cout << "True, and no ticket";
+else if (speed > 65 and speed <= 85)
+cout << "True, and small ticket";
+else if (speed > 85)
+cout << "True, although, large ticket";
+}
+else {
+if (speed <= 60)
+cout << "False, and no ticket";
+else if (speed > 60 and speed <= 80)
+cout << "False, and small ticket";
+else if (speed > 80)
+cout << "False, and big ticket!!";
+
+}
+
+}
+
+
+
+}
